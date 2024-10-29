@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Vesper+Libre:wght@400;500;700;900&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #d4e0ff;
+    color: #273864;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #273864;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 35px;
+    color: white;
+    font-family: "Vesper Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.navbar a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #d4e0ff;
+    font-weight: 400;
+    margin-left: 35px;
+    transition: 1s;
+}
+.navbar a.active{
+    color: white;
+    text-decoration: overline;
+}
+.navbar a:hover{
+    color: white;
+    text-decoration: overline;
+}
+.projects{
+    top: 100px;
+    margin: 10px;
+    position: relative;
+    padding: 10px;
+    justify-content: space-around;
+    /* top: 100px;
+    height: 100vh;
+    justify-content: space-around;
+    position: absolute;
+    display:block;
+    align-items: center;
+    padding: 0 10%; */
+}
+.projects h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+}
+.project{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px;
+    color: #d4e0ff;
+    background: #273864;
+    transition: 0.5s;
+}
+
+.project a{
+    text-decoration: none;
+
+}
+.project:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 25), 0 10px 10px rgba(0, 0, 0, 22);    
+}
+.desc{
+    margin: 10px;
+    margin-right: 20px;
+    /* background: yellow; */
+}
+.desc h2{
+    text-decoration: none;
+    color: #d4e0ff;
+    padding-bottom: 20px;
+    transition: 0.5s;
+}
+.desc h2:hover{
+    color: white;
+}
+.desc p{
+    font-size: 15px;
+    text-decoration: none;
+    color: #d4e0ff;
+}
+.linked{
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.linked a{ 
+    /* padding-top: 20px; */
+    margin: 20px;
+    font-size: 40px;
+    color: #d4e0ff;
+    text-decoration: none;
+    transition: 1s;
+}
+.linked a:hover{
+    color: #a4b5e0;
+    text-shadow: 0 14px 28px rgba(0, 0, 0, 25), 0 10px 10px rgba(0, 0, 0, 22);    
+}
+.contact-us{
+    position: relative;
+    text-align: center;
+    justify-content: space-around;
+    background: #d4e0ff;
+    top: 100px;
+}
+.contact-us h1{
+    text-align: center;
+    justify-content: center;
+    bottom: 10px;
+    font-size: 35px;
+    color: #273864;
+    padding: 10px;
+    transition: 0.5s;
+}
+.home-sci{
+    bottom: 40px;
+    display: flex;
+    text-align: space-evenly;
+    justify-content: center;
+    margin: 0 10%;
+}
+.contacts{
+    padding: 10px;
+}
+.home-sci a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #273864;
+    border-radius: 50%;
+    color: #273864;
+    text-decoration: none;
+    transition: 1s;
+}
+.home-sci a:hover{
+    background: #273864;
+    color: #d4e0ff;
+}
+.home-imgHover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    transition: 3s;
+}
+.home-imgHover:hover{
+    background: #273864;
+}
